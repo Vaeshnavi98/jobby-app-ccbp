@@ -1,0 +1,111 @@
+.jobs-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: black;
+  padding: 20px;
+  height: 100%;
+}
+.profile-section-div1 {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+.filter-label {
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 25px;
+}
+hr {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.jobs-list-deco1 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.search-input {
+  border: 0px;
+  background-color: transparent;
+  border-radius: 7px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+.no-job-image-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin-left: 40px;
+  width: 50%;
+}
+.search-icon-container {
+  background-color: rgb(31, 30, 30);
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs {
+  height: 400px;
+  width: 500px;
+}
+.text {
+  color: white;
+}
+.loading-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list {
+  list-style: none;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.not-found-info-container {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-info {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.go-home-btn {
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #4f46e5;
+  font-size: 18px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.failure-view-image {
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+}
